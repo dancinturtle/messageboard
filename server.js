@@ -24,7 +24,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, './static')));
 //static content
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/mbdemo');
+mongoose.connect('mongodb://localhost/mbdemo', {useMongoClient: true});
 
 var commentSchema = new mongoose.Schema({
 	name: {

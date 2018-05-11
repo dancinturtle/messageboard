@@ -3,7 +3,7 @@
   "description": "messages with comments",
   "dependencies": {
     "body-parser": "^1.15.1",
-    "ejs": "1.0.0",
+    "ejs": "2.5.5",
     "express": "~4.10.0",
     "express-flash": "0.0.2",
     "express-session": "^1.15.6",
