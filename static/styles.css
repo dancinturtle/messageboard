@@ -1,0 +1,16 @@
+.comments {
+    margin-left: 20px;
+}
+.comment_form {
+    margin-left: 20px;
+    margin-right: 400px;
+}
+.posted h4 {
+    color: blue;
+}
+.error {
+    color: crimson;
+}
+.success {
+    color: green;
+}
